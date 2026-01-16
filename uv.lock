@@ -17,6 +17,7 @@ version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
     { name = "boto3" },
+    { name = "h5py" },
     { name = "matplotlib" },
     { name = "pynwb" },
     { name = "requests" },
@@ -25,6 +26,7 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "boto3", specifier = ">=1.42.29" },
+    { name = "h5py", specifier = ">=3.15.1" },
     { name = "matplotlib", specifier = ">=3.10.8" },
     { name = "pynwb", specifier = ">=3.1.3" },
     { name = "requests", specifier = ">=2.32.5" },
